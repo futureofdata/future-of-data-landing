@@ -354,10 +354,18 @@ b {
     text-align: left;
 }
 
+.bottom {
+    position: absolute;
+    bottom: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .divider {
     border-bottom: 1px solid rgba(255, 255, 255, 0.6);
     width: 30px;
-    margin-top: 15px;
+    margin-top: 100px;
     margin-bottom: 5px;
     opacity: 0.5;
 }
