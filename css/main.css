@@ -374,3 +374,19 @@ b {
     text-transform: uppercase;
     color: rgba(255, 255, 255, 0.6);
 }
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    .container {
+        padding: 0 30px;
+    }
+
+    .primary {
+        font-size: 2em;
+    }
+
+    .primary p {
+        margin: 10px 0;
+    }
+}
+
