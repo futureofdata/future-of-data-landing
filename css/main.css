@@ -321,6 +321,7 @@ b {
     position: fixed;
     width: 100%;
     height: 100%;
+    z-index: -1;
 }
 
 .container {
@@ -354,7 +355,7 @@ b {
     text-align: left;
 }
 
-.bottom {
+.primary .bottom {
     position: absolute;
     bottom: 150px;
     display: flex;
@@ -365,12 +366,15 @@ b {
 .divider {
     border-bottom: 1px solid rgba(255, 255, 255, 0.6);
     width: 30px;
-    margin-top: 100px;
+    margin-top: 50px;
     margin-bottom: 5px;
     opacity: 0.5;
 }
 
 .secondary {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     text-transform: uppercase;
     color: rgba(255, 255, 255, 0.6);
 }
@@ -390,3 +394,11 @@ b {
     }
 }
 
+#mc_embed_signup input.email {
+    font-family: Proxima Nova;
+}
+
+.button {
+    font-family: Proxima Nova;
+    text-transform: uppercase;
+}
